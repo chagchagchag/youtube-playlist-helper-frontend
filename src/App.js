@@ -2,9 +2,10 @@ import './App.css';
 
 
 function loginWighGoogle(){
-  const clientId = "580193018098-65pgl90826fmd31chpbb9areco0mn6hs.apps.googleusercontent.com"
+  const clientId = "1070638081689-r9bftrflb8ft02g8ap8340sjq4hrk3n4.apps.googleusercontent.com"
   const redirect_uri = "http://localhost:8080/welcome"
   const scope = "profile"
+  // const scope = "openid%20profile"
   const response_type="code"
   
   const url = 'https://accounts.google.com/o/oauth2/v2/auth?'
